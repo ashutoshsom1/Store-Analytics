@@ -1,0 +1,6 @@
+2025-07-24 19:00:29.444 | INFO     | data.dataloader:<module>:89 - ###############✅ Resource Loading Completed################
+2025-07-24 19:02:49.296 | INFO     | data.dataloader:<module>:89 - ###############✅ Resource Loading Completed################
+2025-07-24 19:31:43.212 | INFO     | data.dataloader:<module>:89 - ###############✅ Resource Loading Completed################
+2025-07-24 19:31:50.715 | INFO     | __main__:render_chat_page:223 - ⚠️ user Sales Team logged in; session id 1753365709_QLED4C
+2025-07-24 19:31:50.715 | INFO     | __main__:render_chat_page:237 - ⚠️ tempdir created at => C:\Users\DATAUSER\OneDrive - Nihilent Limited\Desktop\AzurePipelines\IKEA\v1.0.0\./.tmp\3347decf79769defc5d245f48b77e70cadc2f65e199ee7b70fcc5f5798a1ca54
+2025-07-24 20:01:03.129 | INFO     | data.dataloader:<module>:89 - ###############✅ Resource Loading Completed################

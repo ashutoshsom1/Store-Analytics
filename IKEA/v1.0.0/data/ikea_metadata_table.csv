@@ -1,0 +1,15 @@
+Table Name,Column Name,Data Type,Primary Key,Foreign Key,Description
+store_data,Region,TEXT,No,No,Region (AE - United Arab Emirates)
+store_data,Channel,TEXT,No,No,Channel type (Store or IFB - IKEA Food & Beverages)
+store_data,Store,TEXT,No,No,Store identifier (DJA or YAS)
+store_data,Date,TEXT,Yes,No,Transaction date
+store_data,Act,REAL,No,No,Actual net amount in AED
+store_data,Ly,REAL,No,No,Last year net amount in AED
+store_data,vs_Ly_percent,REAL,No,No,Year-over-year percentage change
+store_data,Visitors,INTEGER,No,No,Total footfall count
+store_data,Customers,INTEGER,No,No,Number of transactions completed
+store_data,Conversion,REAL,No,No,Customer conversion rate
+store_data,ATV,REAL,No,No,Average Transaction Value
+store_data,Item_Sold,INTEGER,No,No,Total quantity of items sold
+store_data,Price_Item,REAL,No,No,Average price per item
+store_data,Item_Cust,REAL,No,No,Average items per customer
