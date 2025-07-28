@@ -86,10 +86,9 @@ def authenticate(username, password):
     # Simple authentication - In a real app, use secure authentication
     # This is just for demonstration
     valid_credentials = {
-        "Admin": "admin123",
-        "Jane Doe": "user123",
+        
         "John Doe": "user123",
-        "Sales Team": "demo123"
+        "SalesTeam": "wvruwcqma",
     }
     
     if username in valid_credentials and password == valid_credentials[username]:
@@ -168,8 +167,8 @@ def render_login_page():
             col1, col2 = st.columns([1, 1], gap="small")
             with col1:
                 login_button = st.button("🚀 Login", use_container_width=True, key="login_btn")
-            with col2:
-                demo_button = st.button("🎮 Demo Login", use_container_width=True, key="demo_btn")
+            # with col2:
+            #     demo_button = st.button("🎮 Demo Login", use_container_width=True, key="demo_btn")
             
             if login_button:
                 if authenticate(username, password):
@@ -179,11 +178,11 @@ def render_login_page():
                 else:
                     st.error(f"❌ Invalid credentials. Attempts: {st.session_state.login_attempts}")
                     
-            if demo_button:
-                authenticate("Sales Team", "demo123")
-                st.success("✅ Demo login successful! Redirecting...")
-                time.sleep(1)
-                st.rerun()
+            # if demo_button:
+            #     authenticate("Sales Team", "demo123")
+            #     st.success("✅ Demo login successful! Redirecting...")
+            #     time.sleep(1)
+            #     st.rerun()
                 
         # Footer section with additional information
         st.markdown(
@@ -206,7 +205,6 @@ def render_login_page():
                     </div>
                 </div>
                 <div style="margin-top: 1.5rem; color: #6B7280; font-size: 0.9rem;">
-                    <strong>Demo Credentials:</strong> Sales Team / demo123 | 
                     <strong>Region:</strong> AE (Arabian Peninsula) | 
                     <strong>Stores:</strong> DJA & YAS
                 </div>
