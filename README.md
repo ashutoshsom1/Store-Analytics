@@ -97,11 +97,17 @@ IKEA/
    ```
 
 3. **Environment Setup**
-   Create a `.env` file in the root directory with your configuration:
+   Copy the example environment file and configure your credentials:
+   ```bash
+   cp IKEA/v1.0.0/.env.example IKEA/v1.0.0/.env
+   ```
+   
+   Then edit the `.env` file with your actual API keys and configuration:
    ```env
-   # Add your API keys and configuration here
-   OPENAI_API_KEY=your_openai_key
-   AZURE_OPENAI_ENDPOINT=your_azure_endpoint
+   # Add your actual API keys and configuration
+   OPENAI_API_KEY=your_actual_openai_key
+   AZURE_OPENAI_ENDPOINT=your_actual_azure_endpoint
+   AZURE_OPENAI_API_KEY=your_actual_azure_key
    ```
 
 4. **Run the application**
